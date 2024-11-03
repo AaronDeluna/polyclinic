@@ -1,0 +1,5 @@
+doctor-rate:
+  dentistRate: 1500
+  therapistRate: 500
+  juniorSurgeonRate: 700
+  seniorSurgeonRate: 2000
