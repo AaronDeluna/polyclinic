@@ -1,14 +1,12 @@
 package org.javaacademy.polyclinic.entity;
 
 import jakarta.annotation.PreDestroy;
-import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 
 import java.math.BigDecimal;
 
 @Component
-@Data
 @Slf4j
 public class Cashier {
     private BigDecimal profit = BigDecimal.ZERO;
