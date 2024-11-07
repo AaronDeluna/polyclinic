@@ -14,7 +14,6 @@ import static org.javaacademy.polyclinic.entity.Specialization.SURGEON;
 @EnableConfigurationProperties(value = PolyclinicProperty.class)
 @AllArgsConstructor
 public class PolyclinicConfiguration {
-
     private PolyclinicProperty polyclinicProperty;
 
     @Bean
